@@ -69,7 +69,7 @@ p {
 }
 
 .step {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -377,7 +377,7 @@ p {
 }
 
 .memory-container {
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
@@ -506,4 +506,3 @@ p {
     }
     
 }
-
